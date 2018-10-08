@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+#tetris {
+  display: flex;
+  width: calc(#{$width-cell} * 7);
+  margin: auto;
+  flex-direction: column;
+}
+
+.cell {
+  width: $width-cell;
+  height: $height-cell;
+  background: $background-cell;
+  border: $border-cell;
+  float: left;
+}
+
+.active {
+  background: black;
+}
+
+.row {
+}
